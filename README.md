@@ -15,15 +15,16 @@
 
 ## 규칙 
 - ㅁㅁ??
-## 목적
-- 스터디 자료 공유
-- 코드 리뷰 및 피드백 제공
-## 구성
-- 팀원별 디렉토리
+## 팀 목표
+
+- 내가 작성한 코드를 남들에게 이해시킬 수 있는 개발자 되기
+- Swift 기본부터 제대로 할 줄 아는 개발자 되기
+- 위의 조건을 모두 갖춰 성공적으로 iOS 개발자로 취업하기
+- 앱스쿨 지각 및 결석하지 않기
+
 ## 활동
 - ???
 ## 참고
 - [코드컨벤션](https://github.com/StyleShare/swift-style-guide)
 - [Commit Message Style](https://blog.munilive.com/posts/my-git-commit-guide.html)
 - [인터뷰](https://github.com/JeaSungLEE/iOSInterviewquestions?tab=readme-ov-file)
-
