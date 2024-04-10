@@ -5,16 +5,13 @@
 ![](https://pbs.twimg.com/media/FIMXRJmXwAsLO7N?format=jpg&name=small)
 
 
-| 이름          | 역할              | 프로필 사진                               |
-|---------------|-------------------|--------------------------------------------|
-| [박정진](https://github.com/canadaprogrammer)       | 팀원     | ![프로필 사진](https://avatars.githubusercontent.com/u/25374253?v=4)       |
-| [신재욱](https://github.com/shin-jae-uk)       | 팀원         | ![프로필 사진](https://avatars.githubusercontent.com/u/54437989?v=4)       |
-| [안성근]       | 팀원  | ![프로필 사진]()       |
-| [이상민]       | 팀원 | ![프로필 사진]()    |
-| [이서경]       | 팀원 | ![프로필 사진](https://avatars.githubusercontent.com/u/105649543?v=4)    |
-| [이융의]       | 팀원       | ![프로필 사진]()       |
-| [정종원](https://github.com/jjwon2149)       | 팀원   | ![프로필 사진](https://avatars.githubusercontent.com/u/45623603?v=4)       |
-| [최광우](https://github.com/madcow95)       | 팀장            | ![프로필 사진](https://avatars.githubusercontent.com/u/78129823?v=4)       |
+| 이름          | 역할              | 프로필 사진                               | 이름          | 역할              | 프로필 사진                               |
+|---------------|-------------------|--------------------------------------------|---------------|-------------------|--------------------------------------------|
+| [박정진](https://github.com/canadaprogrammer) | 팀원 | <img src="https://avatars.githubusercontent.com/u/25374253?v=4" width="50" height="50"> | [신재욱](https://github.com/shin-jae-uk) | 팀원 | <img src="https://avatars.githubusercontent.com/u/54437989?v=4" width="50" height="50"> |
+| [안성근] | 팀원 | ![프로필 사진]() | [이상민] | 팀원 | ![프로필 사진]() |
+| [이서경](https://github.com/seogyeong) | 팀원 | <img src="https://avatars.githubusercontent.com/u/105649543?v=4" width="50" height="50"> | [이융의] | 팀원 | ![프로필 사진]() |
+| [정종원](https://github.com/jjwon2149) | 팀원 | <img src="https://avatars.githubusercontent.com/u/45623603?v=4" width="50" height="50"> | [최광우](https://github.com/madcow95) | 팀장 | <img src="https://avatars.githubusercontent.com/u/78129823?v=4" width="50" height="50"> |
+
 
 ## 규칙 
 - ㅁㅁ??
