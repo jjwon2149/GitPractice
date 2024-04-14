@@ -76,7 +76,6 @@
     let address = people.address
     
     튜플의 멤버를 각각의 상수에 저장가능
-  ```
 - ---
 - 옵셔널 타입(Optional)
   - nil 값이 없음을 표현하는 키워드
