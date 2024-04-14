@@ -46,3 +46,40 @@ let keyTuple = (count: 10, length: 432.33, message: "Key Tuple") // keyTuple.cou
 
 ## Swift Optional
 - **Optional**은 변수 또는 상수에 값이 할당되지 않은 상황을 안전하게 처리하기 위한 방식이다.
+```Swift
+// Optional 선언부, Optional로 선언하면 해당 변수는 데이터가 할당되거나 아무런 값도 할당되지 않을 수 있다. 
+var index: Int?
+index = 3
+var treeArray: [String] = ["Oak", "Pine", "Yew", "Birch"]
+
+if index == nil {
+    // index에 값이 할당되어 있지 않다.
+    print("index에 값이 없다.")
+} else {
+    // index에 값이 할당되어 있다.
+    // 값이 할당되어 있으면 래핑(wrapping)되었다고 한다.
+    // Optional 변수에 !를 붙여 강제 언래핑(unWrapping) 가능하다.
+    // 강제 언래핑은 잘못하면 앱이 뻗어버릴수 있으니 주의..
+    print(treeArray[index!])
+    
+    // Optional Binding을 이용해 임시 변수나 상수에 할당하여 사용할 수 있다.
+    // if 구문 실행이 끝나면 이 `if let index`상수는 더이상 존재하지 않게 되어 동일한 이름을 사용해도 충돌하지 않는다.
+    if let index = index {
+        print(treeArray[index])    
+    }
+    
+    // 아래처럼 축약해서 사용도 가능하다.
+    if let index {
+        print(treeArray[index])
+    }
+    
+    // if구문에서 Optional Binding 후 ,로 조건문을 추가할 수 있다.
+    if let tempIndex = index, tempIndex == 3 {
+        print(tempIndex)
+    }
+}
+```
+
+## 타입 캐스팅, 타입 검사
+- **타입 캐스팅(Type Casting)**은 형 변환이라고도 하며 컴파일러가 어떤 값의 특정 타입을 식별하지 못하는 경우 발생하는데, 메서드나 함수가 반환하는 값이 불명확하거나 예상되지 않을 때 사용된다.
+> 타입 캐스팅은 책을 읽어보고 잘 이해가 되지 않아 나중에 작성해야겠다 ㅠㅠ
