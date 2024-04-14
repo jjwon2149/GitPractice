@@ -1,3 +1,4 @@
+|| Techit-AppSchool 멘토링 4조 ||
 # :apple: iOS 스터디
 
 ### 앱 스쿨 : iOS 5기 SwiftUI를 공부한 내용을 기록하는 저장소입니다.
