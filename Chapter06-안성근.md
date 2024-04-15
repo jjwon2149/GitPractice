@@ -241,7 +241,7 @@ print("Welcome back, \(customerName ?? "customer")")
 |------|------------------------------|--------------------------------------------------------------|
 | ~    | Bitwise NOT Operator         | 단항 연산자로 사용,  기존 메모리 비트를``반전``시킨다.<br>``( 0 -> 1 , 1 -> 0)``  |
 | &    | Bitwise AND Operator         | 두개의 메모리 비트 중 ``모두가 1이면 1을 반환한다``<br>``(true && true)``       |
-| \|   | Bitwise OR Operator          | 두개의 메모리 비트중 ``하나라도 1이면 1을 반환한다<br>``(true \\\\\\\|\\\\\\\| true)`` |
+| \|   | Bitwise OR Operator          | 두개의 메모리 비트중 ``하나라도 1이면 1을 반환한다<br>``(true \|\| true)         |
 | ^    | Bitwise XOR Operator         | 두개의 메모리 비트 중 둘을 비교해서 ``서로 다르면 1을 반환하고 서로 같으면 0을 반환``         |
 | <<   | Bitwise Left Shift Operator  | 모든 비트를 원하는 값 만큼 ``왼쪽으로 이동시킨다``<br>부호여부 상관 X,  2를 곱하는 것 같다.   |
 | >>   | Bitwise Right Shift Operator | 모든 비트를 원하는 값 만큼 ``오른쪽으로 이동시킨다``<br>부호가 있을경우는 주의해야한다(``산술시프트``)<br>2를 나누는것과 같다 |
