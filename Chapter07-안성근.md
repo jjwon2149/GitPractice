@@ -110,12 +110,85 @@ while i < 20 {
 ```
 
 ---
-### 7.6 - 조건부 제어 흐름
----
 ### 7.7 - if 구문 사용하기
+
+```swift
+if 조건식 {
+	// 조건식이 true일 때 수행될 스위프트 코드
+}
+```
+
+```swift
+let x= 10
+
+if x > 9 {
+	print("x is greater than 9!")
+}
+```
+
 ---
 ### 7.8 - if … else … 구문 사용하기
+
+```swift
+if 조건식 {
+	// 조건식이 true 일때 수행될 스위프트 코드
+} else {
+	// 조건식이 false일 떄 수행될 스위프트 코드
+}
+```
+
+```swift 
+let x = 10
+
+if x > 9 {
+	print("x is greater than 9!")
+} else {
+	print("x is less than 9!")
+}
+```
+
 ---
 ### 7.9 - if … else if … 구문 사용하기
+
+```swift 
+let x = 9
+
+if x == 10 {
+	print("x is 10")
+} else if x == 9 {
+	print("x is 9")
+} else if x == 8 {
+	print("x is 8")
+}
+```
+
 ---
 ### 7.10 - guard 구문
+* guard 구문은 불리언(Bool) 표현 식을 포함하며 ``true일 떄만 guard 다음에 위치한 코드가 실행``된다.
+* guard 구문은 불리언(Bool) 표현 식이 ``false일 때 수행될 else 절을 만드시 포함``해야 한다.
+* else 절의 코드는 ``반드시 코드를 빠져나가는 구문을 포함``해야한다
+  * ``return, break, continue, throw``
+
+```swift
+guard <조건문(불리언 표현식) > else {
+	// 조건문이 false일 때 실행될 코드
+	<종료 구문>
+}
+
+// 조건문이 true일 때 실행될 코드
+```
+
+```swift
+func multiplyByTen(value: Int?) {
+	guard let number = value, number < 10 else {
+		print("Number is too high")
+		return
+	}
+
+	let result = number * 10
+	print(result)
+}
+
+multiplyByTen(value: 5)
+multiplyByTen(value: 10)
+```
